@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css"/>
+</head>
+<body>
+        <!--navbar-->
+        <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary nav-con bg-white" id="navbar">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="images/logo.png" alt="cywayzlogo" class="logo"/></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav" id="navbarList">
+                    <!-- <li class="nav-item">
+                        <a class="nav-link conference">Conference</a>
+                    </li> -->
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#HomeSection">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#HightlightsSection">Hightlights</a>
+                  </li>
+                  <!-- <li class="nav-item">
+                    <a class="nav-link" href="#">Event</a>
+                  </li> -->
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://empowering.cxocywayz.com/hackathon/" target="_blank">Hackathon</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contactUsSection">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+        <!--empowering page-->
+        <div class="hero-page-bg-con" id="HomeSection">
+            <div class="empower-content-container">
+                <p class="empowering-page-caption">INSPIRE  |  ASPIRE  |  CONTRIBUTE</p>
+                <img src="images/empoweringLogo.png" alt="empower" class="empower-logo" />
+                <div class="button-container">
+                    <button type="button" class="button solid-button">Register Now ></button>
+                    <button type='button' class='button outline-button'>Wish to contribute</button>
+                </div>
+            </div>
+        </div>
+        <!-- Timer-->
+        <div class="timer-container">
+            <h1 class="timer-text small">Time To <br /><span class="timer-text large">Meet</span></h1>
+            <div class="timer">
+                <div class="ml-3">
+                    <p class='time-minuts' id='days'></p>
+                    <p class='time-text'>Days</p>
+                </div>
+                <div class="ml-3">
+                    <p class='time-minuts' id='hours'></p>
+                    <p class='time-text'>Hours</p>
+                </div>
+                <div class="ml-3">
+                    <p class='time-minuts' id='minuts'></p>
+                    <p class='time-text'>Mins</p>
+                </div>
+            </div>
+        </div>
+        <!--Highlights-->
+        <div class="key-agenda-container" id="HightlightsSection">
+            <h1 class="key-agenda-heading">HIGHLIGHTS</h1>
+            <p class='key-agenda-paragraph'>Empowered individuals are better equipped to navigate life's challenges, seize opportunities, and create a positive impact in their own lives and the lives of others</p>
+            <div class="key-agenda-cards-list">
+                <div class="key-agenda-card skyblue" id="keyAgendaCard">
+                    <img  src="images/mentorship.png" class="card-image"/>
+                    <p class="card-content">Mentorship</p>
+                </div>
+                <div class="key-agenda-card green">
+                    <img  src="images/networking.png" class="card-image"/>
+                    <p class="card-content">Networking</p>
+                </div>
+                <div class="key-agenda-card orange">
+                    <img  src="images/exhibition.png" class="card-image"/>
+                    <p class="card-content">Exhibition</p>
+                </div>
+                <div class="key-agenda-card pink">
+                    <img  src="images/conference.png" class="card-image"/>
+                    <p class="card-content">conference</p>
+                </div>
+            </div>
+            <div class="key-agenda-cards-list">
+                <div class="key-agenda-card yellow">
+                    <img  src="images/speaker.png" class="card-image"/>
+                    <p class="card-content">Top Speakers from all over the world</p>
+                </div>
+                <div class="key-agenda-card blue">
+                    <img  src="images/empower.png" class="card-image"/>
+                    <p class="card-content">Empowering CXO </p>
+                </div>
+                <div class="key-agenda-card lightgreen">
+                    <img  src="images/hackathon.png" class="card-image"/>
+                    <p class="card-content">Hackathon</p>
+                </div>
+                <div class="key-agenda-card violet">
+                    <img  src="images/certification.png" class="card-image"/>
+                    <p class="card-content">certification & Felicitation</p>
+                </div>
+            </div>
+        </div>
+        <!--acheivement-->
+        <div class="achievement-card-container">
+            <div class="achievement-card">
+                <div class="achievement-card-content">
+                    <h1 class="acheivement-numbers">300+</h1>
+                    <hr class="line"/>
+                    <p class="acheivement-card-content">CISO,CIO, Head of Security</p>
+                </div>
+            </div>
+            <div class="achievement-card">
+                <div class="achievement-card-content">
+                    <h1 class="acheivement-numbers">1200 min</h1>
+                    <hr class="line"/>
+                    <p class="acheivement-card-content">Knowledge Sharing</p>
+                </div>
+            </div>
+            <div class="achievement-card">
+                <div class="achievement-card-content">
+                    <h1 class="acheivement-numbers">75+</h1>
+                    <hr class="line"/>
+                    <p class="acheivement-card-content">Knowledge Sharing</p>
+                </div>
+            </div>
+            <div class="achievement-card">
+                <div class="achievement-card-content">
+                    <h1 class="acheivement-numbers">100+</h1>
+                    <hr class="line"/>
+                    <p class="acheivement-card-content">Hackathon</p>
+                </div>
+            </div>
+        </div>
+        <!--events-->
+        <div class="empowering-events-container">
+            <div class="empowering-cxo-container">
+                <p class="welcome-to-text">Welcome to</p>
+                <h1 class="empowering-cxo-heading">Empowering CXOs</h1>
+                <p class="empowerring-cxo-paragraph">A CXO conference , empowering cxo brings  India’s leading cyber security stalwarts in a day to  empower them in other area of skills apart from cyber.  </p>
+                <p class="empowerring-cxo-paragraph">The exclusive “by-invite only” conference presents an opportunity to learn, best in class practices, and gain  industry insights with amalgamation of Knowledge and experience.</p>
+                <p class="empowerring-cxo-paragraph">Keeping it relevant, practical, and thought-provoking, Empowering CXOs through valuable content can help them enhance their leadership capabilities, drive customer/Country-centric strategies, and achieve organizational success.</p>
+            </div>
+            <div class="event-timing-container">
+                <h1 class="upcoming-events-title">Agenda</h1>
+                <div class="timing-location-con break-line">
+                    <div class="event-date-container">
+                        <img  src="images/calendar.png"  alt="calendar" class="icons"/>
+                        <p class="event-date">02 September 2023</p>
+                    </div>    
+                    <p class="event-title">Empowering CXOs</p>
+                    <div class="event-date-container">
+                        <img src="images/mappin.png" alt="mappin" class="icons" />
+                        <p class="event-date">virtually</p>  
+                    </div>
+                </div>
+                <div class="timing-location-con break-line">
+                    <div class="event-date-container">
+                        <img  src="images/calendar.png"  alt="calendar" class="icons"/>
+                        <p class="event-date">15 September 2023</p>
+                    </div>    
+                    <p class="event-title">Hackathon-workshop</p>
+                    <div class="event-date-container">
+                        <img src="images/mappin.png" alt="mappin" class="icons" />
+                        <p class="event-date">Bangalore</p>  
+                    </div>
+                </div> 
+                <div class="timing-location-con">
+                    <div class="event-date-container">
+                        <img  src="images/calendar.png"  alt="calendar" class="icons"/>
+                        <p class="event-date">16 September 2023</p>
+                    </div>    
+                    <p class="event-title">Conference</p>
+                    <div class="event-date-container">
+                        <img src="images/mappin.png" alt="mappin" class="icons" />
+                        <p class="event-date">Bangalore</p>  
+                    </div>
+                </div>
+            </div>    
+        </div>
+        <!--excitement movements -->
+        <div class="what-we-provide-bg-container">
+            <h1 class="what-we-provide-heading">Excitement Movements</h1>
+            <div class="what-we-provide-card-container">
+                <div class="what-we-provide-card">
+                    <img src="images/cultural.png" alt="cultural" class="what-we-provide-card-image"/>
+                    <h1 class="wwp-card-content-title">Cultural</h1> 
+                </div>
+                <div class="what-we-provide-card">
+                    <img src="images/books.png" alt="books" class="what-we-provide-card-image"/>
+                    <h1 class="wwp-card-content-title">Knowledge Sharing</h1>
+                </div>
+                <div class="what-we-provide-card">
+                    <img src="images/food.png" alt="food" class="what-we-provide-card-image"/>
+                    <h1 class="wwp-card-content-title">Gala dinner</h1>
+                </div>
+                <div class="what-we-provide-card">
+                    <img src="images/roleplay.png" alt="roleplay" class="what-we-provide-card-image"/>
+                    <h1 class="wwp-card-content-title">Role Play</h1>
+                </div>
+            </div>
+        </div>
+        <!--contact us-->
+        <div class="footer-section-bg-container" id="contactUsSection">
+            <div class="footer-content-container">
+                <div class="headquarter">
+                    <h1 class="footer-heading">Headquarter</h1>
+                    <p class="footer-content">Bangalore, India</p>
+                    <p class="footer-content">Singapore</p>
+                    <p class="footer-content">Uk</p>
+                    <p class="footer-content">Dubai</p>
+                </div>
+                <div>
+                    <h1 class="footer-heading">Contact Info</h1>
+                    <div class="contact-info-container">
+                        <p class="footer-content">Prakash Kumar</p>
+                        <p class="footer-content email">prakash@cywayz.com</p>
+                        <p class="footer-content">+91 9108711688</p>
+                    </div>
+                    <div>
+                        <p class="footer-content">Suriya</p>
+                        <p class="footer-content email">suriya@cywayz.com</p>
+                        <p class="footer-content">+91 7871517174</p>
+                    </div>
+                </div>
+                <div>
+                    <h1 class="footer-heading">Quick Links</h1>
+                    <p class="footer-content">Register Now</p>
+                    <p class="footer-content">Hightlights</p>
+                    <p class="footer-content">Excitement movements</p>
+                </div>
+            </div>
+            <div class="footer-content-container">
+                <p class="footer-content">copywrite @ 2021 cywayz CXO</p>
+                <div class="icons-container">
+                  <img src="images/watsapp.png" alt="watsapp" class="icons" />  
+                  <img src="images/fb.png" alt="facebook" class="icons"/> 
+                  <img src="images/twitter.png" alt="twitter" class="icons"/>
+                  <img src="images/instagram.png" alt="insta" class="icons"/>
+                  <img  src="images/linkedin.png" alt="linkedin" class="icons"/>
+                </div>
+            </div>
+        </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
